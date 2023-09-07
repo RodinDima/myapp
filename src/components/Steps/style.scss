@@ -1,0 +1,37 @@
+.steps {
+	overflow: clip;
+}
+.steps__container {
+}
+
+.steps__inner {
+  display: grid;
+  grid-template-columns: 370px auto auto;
+  gap: 20px;
+}
+.steps__content {
+}
+.steps__content-title {
+}
+.steps__content-text {
+}
+.steps__list {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 370px;
+  gap: 72px 24px;
+}
+.steps__item {
+  display: flex;
+  gap: 39px;
+}
+.steps__item--odd {
+}
+.steps__item-text {
+	width: 174px;
+}
+.steps__item-img {
+}
+.steps__item--even {
+  display: flex;
+}

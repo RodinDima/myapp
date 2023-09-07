@@ -1,0 +1,67 @@
+.product {
+  overflow: clip;
+  margin-bottom: 100px;
+}
+.product__container {
+}
+.product__inner {
+  display: grid;
+  grid-template-columns: 370px auto auto;
+  gap: 69px;
+}
+.product__content {
+  gap: 69px;
+}
+.product__content-title {
+  margin-bottom: 15px;
+}
+.product__content-text {
+}
+.product__items {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  gap: 50px 93px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.product__item {
+  width: 290px;
+}
+.product__item-img {
+  margin-bottom: 8px;
+}
+.product__item-price {
+  font-family: Yeseva One;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.product__item-title {
+  font-family: Yeseva One;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.product__item-text {
+  margin-bottom: 27px;
+}
+
+.product__items::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(./Images/product-decor.png);
+  width: 24px;
+  height: 33px;
+}
+.product__items::after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 24px;
+  background-color: #7b6152;
+  width: 1000%;
+  height: 1px;
+}

@@ -12,3 +12,14 @@
 	color:#FFBD59;
 
 }
+
+@media (max-width:480px) {
+	.primalBtn {
+		padding: 18px 54px;
+	}
+}
+@media (max-width:360px) {
+	.primalBtn {
+		padding: 15px 40px;
+	}
+}
