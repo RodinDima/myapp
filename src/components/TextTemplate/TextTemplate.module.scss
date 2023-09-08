@@ -1,10 +1,13 @@
 .special-text {
-font-family: Comfortaa;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;}
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
-@media (max-width : 768px) {
-	.special-text {font-size: 10px;
-}}
+@media (max-width: 768px) {
+  .special-text {
+    font-size: 10px;
+  }
+}

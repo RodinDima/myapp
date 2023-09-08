@@ -1,5 +1,6 @@
 .steps {
-	overflow: clip;
+  overflow: clip;
+  margin-bottom: 150px;
 }
 .steps__container {
 }
@@ -9,29 +10,58 @@
   grid-template-columns: 370px auto auto;
   gap: 20px;
 }
-.steps__content {
-}
-.steps__content-title {
-}
-.steps__content-text {
-}
 .steps__list {
   display: grid;
   grid-template-columns: auto auto;
   width: 370px;
   gap: 72px 24px;
+  padding-bottom: 72px;
+  position: relative;
+  counter-reset: number;
 }
 .steps__item {
   display: flex;
   gap: 39px;
+  list-style-type: none;
+  position: relative;
 }
-.steps__item--odd {
+.steps__item::before {
+  counter-increment: number;
+  content: "0" counter(number);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 30px;
+  color: #bea495;
+  font-family: Yeseva One;
 }
+.steps__item:nth-child(n + 10):before {
+  content: counter(number);
+}
+
 .steps__item-text {
-	width: 174px;
+  width: 174px;
 }
-.steps__item-img {
+.steps__item--even::before {
+  left: auto;
+  right: 0;
 }
-.steps__item--even {
-  display: flex;
+
+.steps__list::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(./Images/steps-decor.png);
+  width: 24px;
+  height: 33px;
+}
+.steps__list::after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 24px;
+  background-color: #7b6152;
+  width: 1000%;
+  height: 1px;
 }

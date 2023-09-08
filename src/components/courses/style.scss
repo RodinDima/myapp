@@ -1,0 +1,104 @@
+.courses {
+  overflow: clip;
+  margin-bottom: 100px;
+}
+.courses__inner {
+  display: grid;
+  grid-template-columns: 370px auto auto;
+  gap: 69px;
+}
+.courses__content {
+  min-width: 175px;
+  gap: 69px;
+}
+.courses__content-title {
+  margin-bottom: 15px;
+}
+.courses__items {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  gap: 126px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.courses__item {
+  width: 290px;
+}
+.courses__item-img {
+  margin-bottom: 8px;
+  color: #ffffff;
+  position: relative;
+  font-family: Yeseva One;
+}
+.courses__item-price {
+  font-family: Yeseva One;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.courses__item-title {
+  font-family: Yeseva One;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.courses__item-text {
+  margin-bottom: 27px;
+}
+
+.courses__items::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(./Images/courses-decor.png);
+  width: 24px;
+  height: 33px;
+}
+.courses__items::after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 24px;
+  background-color: #7b6152;
+  width: 1000%;
+  height: 1px;
+}
+
+.courses__title {
+  display: inline;
+  padding: 15px;
+  background-color: #bea495;
+  font-size: 11px;
+  position: absolute;
+  top: 173px;
+  left: 8px;
+}
+.courses__time {
+  display: inline;
+  padding: 8px 16px;
+  background-color: #bea495;
+  font-size: 11px;
+  position: absolute;
+  top: 227px;
+  left: 8px;
+}
+
+.courses__time span {
+  font-family: Comfortaa;
+}
+
+.courses__price {
+  display: inline;
+  padding: 19px 19px 19px 10px;
+  background-color: #bea495;
+  font-size: 11px;
+  position: absolute;
+  top: 328px;
+  right: 0px;
+}
+
+.style_primalBtn__5pke5 {
+  padding: 13px 16px;
+}

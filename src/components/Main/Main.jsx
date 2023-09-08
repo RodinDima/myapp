@@ -3,8 +3,8 @@ import "./style.scss";
 import Button from "../Button/Button";
 import { TEXT } from "../Constants";
 import Group from "./Images/group.png";
-import Group2 from './Images/Group2.png';
-import Group3 from  './Images/group3.png'
+import Group2 from "./Images/Group2.png";
+import Group3 from "./Images/group3.png";
 
 const Main = () => {
   return (
@@ -17,8 +17,16 @@ const Main = () => {
         </div>
 
         <picture className="main__img">
-          <source className="main__img-sm" srcSet={Group3} media="(max-width:360px)" />
-          <source className="main__img-med" srcSet={Group2} media="(max-width:481px)" />
+          <source
+            className="main__img-sm"
+            srcSet={Group3}
+            media="(max-width:360px)"
+          />
+          <source
+            className="main__img-med"
+            srcSet={Group2}
+            media="(max-width:481px)"
+          />
           <img className="main__img-large" src={Group} alt="фон" />
         </picture>
       </div>
