@@ -16,16 +16,28 @@ const About = () => {
         </div>
         <ul className="about__list">
           <li className="about__item">
-            <img src={Square} alt="" className="about__item-img" />
+            <img
+              src={Square}
+              alt="beautiful candle"
+              className="about__item-img"
+            />
             <p className="about__item-text">Насолоджуйтеся моментом</p>
           </li>
           <li className="about__item">
-            <img src={Candle} alt="" className="about__item-img--big" />
+            <img
+              src={Candle}
+              alt="more beautiful candle"
+              className="about__item-img--big"
+            />
             <p className="about__item-text">Виготовлені з любов'ю</p>
           </li>
 
           <li className="about__item">
-            <img src={Square2} alt="" className="about__item-img" />
+            <img
+              src={Square2}
+              alt="more beautiful candle"
+              className="about__item-img"
+            />
             <p className="about__item-text">Створіть улюблену атмосферу</p>
           </li>
         </ul>

@@ -20,7 +20,7 @@ const Courses = () => {
           <div className="courses__items">
             <div className="courses__item">
               <div className="courses__item-img">
-                <img src={Courses1} alt="" />
+                <img src={Courses1} alt="Basics of making a candle" />
                 <p className="courses__title">Основи виготовлення свічок</p>
                 <p className="courses__time">
                   Навчання <span>- 20 год</span>
@@ -38,7 +38,9 @@ const Courses = () => {
             </div>
             <div className="courses__item">
               <div className="courses__item-img">
-                <img src={Courses2} alt="" />
+                <img
+                  src={Courses2}
+                  alt="The mystery of aromatherapy"/>
                 <p className="courses__title">Мистецтво ароматерапії</p>
                 <p className="courses__time">
                   Навчання <span>- 20 год</span>

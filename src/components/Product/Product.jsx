@@ -19,7 +19,7 @@ const Product = () => {
           <div className="product__items">
             <div className="product__item">
               <div className="product__item-img">
-                <img src={One} alt="" />
+                <img src={One} alt="Сердечко кохання" />
               </div>
               <div className="product__item-price">10$</div>
               <div className="product__item-title">"Сердечко кохання"</div>
@@ -31,7 +31,7 @@ const Product = () => {
             </div>
             <div className="product__item">
               <div className="product__item-img">
-                <img src={One} alt="" />
+                <img src={One} alt="Вихір кохання" />
               </div>
               <div className="product__item-price">10$</div>
               <div className="product__item-title">"Сердечко кохання"</div>
@@ -43,7 +43,7 @@ const Product = () => {
             </div>
             <div className="product__item">
               <div className="product__item-img">
-                <img src={One} alt="" />
+                <img src={One} alt="Веселка" />
               </div>
               <div className="product__item-price">10$</div>
               <div className="product__item-title">"Сердечко кохання"</div>
@@ -55,7 +55,7 @@ const Product = () => {
             </div>
             <div className="product__item">
               <div className="product__item-img">
-                <img src={One} alt="" />
+                <img src={One} alt="Жіноча чарівність" />
               </div>
               <div className="product__item-price">10$</div>
               <div className="product__item-title">"Сердечко кохання"</div>

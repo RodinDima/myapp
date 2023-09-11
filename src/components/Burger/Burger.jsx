@@ -20,32 +20,32 @@ const Burger = () => {
       <nav className={`burger__menu ${open ? "open" : ""}`}>
         <ul className="burger__list">
           <li className="burger__item">
-            <a href="" className="burger__item-link">
+            <a href="#" className="burger__item-link">
               Про нас
             </a>
           </li>
           <li className="burger__item">
-            <a href="" className="burger__item-link">
+            <a href="#" className="burger__item-link">
               Каталог
             </a>
           </li>
           <li className="burger__item">
-            <a href="" className="burger__item-link">
+            <a href="#" className="burger__item-link">
               Команда
             </a>
           </li>
           <li className="burger__item">
-            <a href="" className="burger__item-link">
+            <a href="#" className="burger__item-link">
               Відгуки
             </a>
           </li>
           <li className="burger__item">
-            <a href="" className="burger__item-link">
+            <a href="#" className="burger__item-link">
               Курси
             </a>
           </li>
           <li className="burger__item">
-            <a href="" className="burger__item-link">
+            <a href="#" className="burger__item-link">
               Контакти
             </a>
           </li>

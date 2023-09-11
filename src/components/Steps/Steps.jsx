@@ -24,7 +24,7 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText1}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Підготовка матеріалів" />
               </div>
             </li>
             <li className="steps__item steps__item--odd">
@@ -32,12 +32,12 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText2}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Підготовка форми" />
               </div>
             </li>
             <li className="steps__item steps__item--even">
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Приготування воску" />
               </div>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText3}
@@ -45,7 +45,7 @@ const Steps = () => {
             </li>
             <li className="steps__item steps__item--even">
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Підготовка фітіля" />
               </div>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText4}
@@ -56,7 +56,7 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText5}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Підготовка матеріалів" />
               </div>
             </li>
             <li className="steps__item steps__item--odd">
@@ -64,12 +64,12 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText6}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Наповнення форми" />
               </div>
             </li>
             <li className="steps__item steps__item--even">
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Приготування воску" />
               </div>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText7}
@@ -77,7 +77,7 @@ const Steps = () => {
             </li>
             <li className="steps__item steps__item--even">
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Підготовка фітіля" />
               </div>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText8}
@@ -88,7 +88,7 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText9}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Підготовка матеріалів" />
               </div>
             </li>
             <li className="steps__item steps__item--odd">
@@ -96,7 +96,7 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText10}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="" />
+                <img src={Candle} alt="Наповнення форми" />
               </div>
             </li>
           </ol>

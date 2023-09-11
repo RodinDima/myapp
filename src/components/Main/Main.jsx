@@ -27,7 +27,11 @@ const Main = () => {
             srcSet={Group2}
             media="(max-width:481px)"
           />
-          <img className="main__img-large" src={Group} alt="фон" />
+          <img
+            className="main__img-large"
+            src={Group}
+            alt="Зображення атмосфери затишку та гармонії!"
+          />
         </picture>
       </div>
     </main>
