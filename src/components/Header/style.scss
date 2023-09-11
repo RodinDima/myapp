@@ -75,3 +75,74 @@ body {
 .header__burger {
   display: none;
 }
+
+@media (max-width: 1000px) {
+  .header {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  [class$="__container"] {
+    padding: 0 10px;
+  }
+  .header__tel::before {
+    top: -6px;
+  }
+  .menu__item-link,
+  .header__tel {
+    font-size: 10px;
+  }
+}
+@media (max-width: 640px) {
+  .header__menu {
+    display: none;
+  }
+  .header__burger {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-between;
+    width: 50px;
+    z-index: 10;
+  }
+  .header__burger span {
+    display: flex;
+    width: 30px;
+    height: 1px;
+    background: #7b6152;
+    gap: 12px;
+  }
+  .open {
+    background-color: #7b6152;
+    display: flex;
+    text-align: center;
+    z-index: 7;
+    padding: 25px 35px 25px 45px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 153px;
+    box-sizing: border-box;
+  }
+  .burger__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .burger__item-link {
+    color: #fff8f3;
+    font-family: Comfortaa;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+  .header__container {
+    padding: 0 10px;
+  }
+}
+

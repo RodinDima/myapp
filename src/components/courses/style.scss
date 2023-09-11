@@ -102,3 +102,111 @@
 .style_primalBtn__5pke5 {
   padding: 13px 16px;
 }
+
+@media (max-width: 1170px) {
+  .courses__items {
+    gap: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .courses__inner {
+    grid-template-columns: auto auto auto;
+    gap: 22px;
+  }
+}
+@media (max-width: 768px) {
+  [class$="__container"] {
+    padding: 0 10px;
+  }
+
+  .courses__items .courses__item {
+    width: 195px;
+  }
+  .courses__item .courses__item-img img {
+    width: 195px;
+  }
+  .courses__item-img .courses__title {
+    padding: 9px;
+    font-size: 9px;
+    top: 124px;
+    left: -2px;
+  }
+  .courses__item-img .courses__time {
+    background-color: #bea495;
+    font-size: 8px;
+    top: 161px;
+    left: -2px;
+  }
+
+  .courses__item-img .courses__price {
+    padding: 10px 10px 10px 10px;
+    font-size: 9px;
+    top: 241px;
+    right: -4px;
+  }
+  .courses__item-text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 670px) {
+  .courses__inner {
+    display: block;
+  }
+  .courses__inner {
+    text-align: s;
+  }
+  .courses__content {
+    margin-bottom: 30px;
+  }
+
+  .courses__content-text {
+    max-width: 300px;
+    font-size: 10px;
+    display: inline-block;
+  }
+  .courses__items {
+    justify-content: space-evenly;
+  }
+  .courses__content {
+    text-align: center;
+  }
+}
+@media (max-width: 445px) {
+  .courses__items {
+    grid-template-columns: auto;
+  }
+  .courses__item {
+    width: 255px;
+  }
+  .courses__item-img img {
+    width: 255px;
+  }
+  .courses__title {
+    display: inline;
+    padding: 15px;
+    background-color: #bea495;
+    font-size: 11px;
+    position: absolute;
+    top: 173px;
+    left: -3px;
+  }
+  .courses__time {
+    display: inline;
+    padding: 8px 16px;
+    background-color: #bea495;
+    font-size: 11px;
+    position: absolute;
+    top: 227px;
+    left: -3px;
+  }
+
+  .courses__price {
+    display: inline;
+    padding: 19px 19px 19px 10px;
+    background-color: #bea495;
+    font-size: 11px;
+    position: absolute;
+    top: 301px;
+    right: -4px;
+  }
+}
