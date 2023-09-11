@@ -1,10 +1,10 @@
 import React from "react";
-import "./style.scss";
 import Button from "../Button/Button";
 import { TEXT } from "../Constants";
 import Group from "./Images/group.png";
 import Group2 from "./Images/Group2.png";
 import Group3 from "./Images/group3.png";
+import "./style.scss";
 
 const Main = () => {
   return (
