@@ -1,8 +1,8 @@
 .team {
-  overflow: clip;
   background-color: #a5978e;
   color: #fafafa;
   margin-bottom: 150px;
+  overflow: clip;
 }
 .team__inner {
   display: grid;
@@ -106,5 +106,8 @@
   .team__item-box {
     width: 151px;
     padding: 10px 5px;
+  }
+  .team {
+    margin-bottom: 50px;
   }
 }
