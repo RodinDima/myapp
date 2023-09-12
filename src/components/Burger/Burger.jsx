@@ -18,6 +18,10 @@ const Burger = () => {
       </button>
 
       <nav className={`burger__menu ${open ? "open" : ""}`}>
+        <div className="burger__close" onClick={toggleBurger}>
+          <span></span>
+          <span></span>
+        </div>
         <ul className="burger__list">
           <li className="burger__item">
             <a href="#" className="burger__item-link">

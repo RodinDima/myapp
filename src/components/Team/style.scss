@@ -1,0 +1,110 @@
+.team {
+  overflow: clip;
+  background-color: #a5978e;
+  color: #fafafa;
+  margin-bottom: 150px;
+}
+.team__inner {
+  display: grid;
+  grid-template-columns: 391px auto;
+  padding-top: 50px;
+  padding-bottom: 83px;
+  gap: 39px;
+}
+.team__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 75px;
+}
+.team__item {
+  position: relative;
+}
+.team__item-box {
+  width: 163px;
+  background-color: #7b6152;
+  text-align: center;
+  padding: 15px 9px;
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+}
+.team__item-title {
+  text-align: center;
+  font-family: Yeseva One;
+  font-size: 12.473px;
+}
+.team__item-text {
+  color: #fff;
+  font-family: Comfortaa;
+  font-size: 10.914px;
+}
+
+@media (max-width: 1000px) {
+  .team__inner {
+    grid-template-columns: 290px auto;
+  }
+}
+@media (max-width: 768px) {
+  .team__inner {
+    grid-template-columns: 190px auto;
+  }
+  .team__items {
+    gap: 30px 14px;
+  }
+  .team__item {
+    width: 210px;
+  }
+  .team__img img {
+    width: 142px;
+  }
+  .team__item-title {
+    font-size: 8px;
+  }
+  .team__item-text {
+    font-size: 7px;
+  }
+  .team__item-box {
+    width: 106px;
+    padding: 10px 5px;
+  }
+}
+@media (max-width: 670px) {
+  .team__inner {
+    display: block;
+  }
+  .team__content {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .team__items {
+    grid-template-columns: 210px 210px;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 445px) {
+  .team__items {
+    display: block;
+  }
+  .team__item {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .team__img img {
+    width: 204px;
+  }
+  .team__item-title {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  .team__item-text {
+    font-size: 10px;
+  }
+  .team__item-box {
+    width: 151px;
+    padding: 10px 5px;
+  }
+}

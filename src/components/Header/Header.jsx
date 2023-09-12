@@ -49,7 +49,7 @@ const Header = () => {
           </ul>
         </nav>
         <div className="header__tel">
-          <a href="#">+45 65 78 98 76</a>
+          <a href="tel:+4565789876">+45 65 78 98 76</a>
         </div>
         <Burger />
       </div>

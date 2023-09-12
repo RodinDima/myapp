@@ -18,88 +18,98 @@ const Steps = () => {
               <TextTemplate text={TEXT.SelectionSteps.text} />
             </p>
           </div>
-          <ol className="steps__list">
-            <li className="steps__item steps__item--odd">
+          <div className="steps__list">
+            <div className="steps__item steps__item--odd">
+              <span>01</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText1}
               </p>
               <div className="steps__item-img">
                 <img src={Candle} alt="Підготовка матеріалів" />
               </div>
-            </li>
-            <li className="steps__item steps__item--odd">
+            </div>
+            <div className="steps__item steps__item--odd">
+              <span>02</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText2}
               </p>
               <div className="steps__item-img">
                 <img src={Candle} alt="Підготовка форми" />
               </div>
-            </li>
-            <li className="steps__item steps__item--even">
+            </div>
+            <div className="steps__item steps__item--even">
               <div className="steps__item-img">
                 <img src={Candle} alt="Приготування воску" />
               </div>
+              <span>03</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText3}
               </p>
-            </li>
-            <li className="steps__item steps__item--even">
+            </div>
+            <div className="steps__item steps__item--even">
               <div className="steps__item-img">
                 <img src={Candle} alt="Підготовка фітіля" />
               </div>
+              <span>04</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText4}
               </p>
-            </li>
-            <li className="steps__item steps__item--odd">
+            </div>
+            <div className="steps__item steps__item--odd">
+              <span>05</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText5}
               </p>
               <div className="steps__item-img">
                 <img src={Candle} alt="Підготовка матеріалів" />
               </div>
-            </li>
-            <li className="steps__item steps__item--odd">
+            </div>
+            <div className="steps__item steps__item--odd">
+              <span>06</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText6}
               </p>
               <div className="steps__item-img">
                 <img src={Candle} alt="Наповнення форми" />
               </div>
-            </li>
-            <li className="steps__item steps__item--even">
+            </div>
+            <div className="steps__item steps__item--even">
               <div className="steps__item-img">
                 <img src={Candle} alt="Приготування воску" />
               </div>
+              <span>07</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText7}
               </p>
-            </li>
-            <li className="steps__item steps__item--even">
+            </div>
+            <div className="steps__item steps__item--even">
               <div className="steps__item-img">
                 <img src={Candle} alt="Підготовка фітіля" />
               </div>
+              <span>08</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText8}
               </p>
-            </li>
-            <li className="steps__item steps__item--odd">
+            </div>
+            <div className="steps__item steps__item--odd">
+              <span>09</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText9}
               </p>
               <div className="steps__item-img">
                 <img src={Candle} alt="Підготовка матеріалів" />
               </div>
-            </li>
-            <li className="steps__item steps__item--odd">
+            </div>
+            <div className="steps__item steps__item--odd">
+              <span>10</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText10}
               </p>
               <div className="steps__item-img">
                 <img src={Candle} alt="Наповнення форми" />
               </div>
-            </li>
-          </ol>
+            </div>
+          </div>
         </div>
       </div>
     </section>

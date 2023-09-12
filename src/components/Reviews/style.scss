@@ -1,0 +1,84 @@
+.reviews__container {
+  display: flex;
+  padding-bottom: 56px;
+}
+.reviews__content {
+  margin-right: 18px;
+  max-width: 374px;
+}
+.reviews__title {
+  margin-bottom: 15px;
+}
+.reviews__text {
+}
+.reviews__slider {
+  display: flex;
+  padding-bottom: 123px;
+ 
+}
+.reviews__slider-item {
+  display: flex;
+  flex-direction: column;
+  width: 372px;
+  padding-top: 50px;
+}
+.reviews__slider-img {
+  margin-right: 16px;
+}
+.reviews__slider-social {
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+.reviews__slider-title {
+  color: #000;
+  font-family: Yeseva One;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.reviews__slider-text {
+  width: 372px;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 63px;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 390px !important;
+  left: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 50px;
+  height: 3px;
+  margin: 0 5px;
+  background-color: #bea495;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #7b6152;
+}
+.reviews__btn {
+  align-items: end;
+  width: 216px;
+  color: #272727;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  align-self: self-end;
+}
+.rev-btn {
+  padding: 20px 35px;
+}
+
