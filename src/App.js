@@ -5,6 +5,7 @@ import Cert from './components/Cert/Cert';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Product from './components/Product/Product';
+import Question from './components/Question/Question';
 import Reviews from './components/Reviews/Reviews';
 import Steps from './components/Steps/Steps';
 import Team from './components/Team/Team';
@@ -21,7 +22,8 @@ function App() {
       <Courses />
       <Team />
       <Reviews />
-      <Cert/>
+      <Cert />
+      <Question/>
     </>
   );
 }
