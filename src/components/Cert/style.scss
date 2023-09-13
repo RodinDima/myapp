@@ -1,0 +1,135 @@
+.cert {
+  overflow: clip;
+}
+.cert__container {
+}
+.cert__inner {
+  display: flex;
+  padding-bottom: 50px;
+}
+.cert__content {
+  width: 371px;
+  margin-right: 20px;
+}
+.cert__content-title {
+}
+.cert__content .TitleTemplate_special-text__ldBEH {
+  margin-bottom: 10px;
+}
+.cert__slider {
+  width: 375px;
+  padding-bottom: 123px;
+  display: flex;
+}
+.cert__slider-item {
+  width: 371px;
+}
+.cert__slider-img {
+}
+
+.cert__inner .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 225px !important;
+  left: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 50px;
+  height: 3px;
+  margin: 0 5px;
+  background-color: #bea495;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #7b6152;
+}
+
+.cert__content .swiper-slide {
+  width: 371px;
+}
+
+.cert__inner .swiper-wrapper {
+  width: 800px;
+}
+.cert__inner .swiper {
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .cert__slider-img {
+    width: 275px;
+  }
+  .cert__slider-img img {
+    width: 275px;
+  }
+  .cert__inner .swiper-wrapper {
+    width: 614px;
+  }
+}
+
+@media (max-width: 926px) {
+  .cert__content .TitleTemplate_special-text__ldBEH {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .cert__content .TextTemplate_special-text__dcjyB {
+    font-size: 10px;
+  }
+  .cert__content {
+    width: 200px;
+  }
+  .cert__inner .swiper-wrapper {
+    width: 571px;
+  }
+  .cert__inner .swiper-pagination {
+    top: 179px !important;
+  }
+}
+
+@media (max-width: 688px) {
+  .cert__inner {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .cert__content {
+    width: 195px;
+    margin-bottom: 30px;
+  }
+  .cert__inner .swiper-pagination {
+    top: 146px !important;
+  }
+  .cert__inner .swiper-wrapper {
+    width: 582px;
+  }
+}
+
+@media (max-width: 595px) {
+  .cert__slider-img img {
+    width: 200px;
+  }
+  .cert__slider-img {
+    width: 200px;
+  }
+  .cert__inner .swiper-wrapper {
+    width: 435px;
+  }
+  .cert__inner .swiper-pagination {
+    top: 100px !important;
+  }
+  .cert__inner .swiper-wrapper {
+    width: 423px;
+  }
+}
+
+@media (max-width: 445px) {
+  .cert__inner .swiper-wrapper {
+    width: 200px;
+  }
+}

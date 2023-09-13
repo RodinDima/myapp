@@ -1,6 +1,7 @@
 
 import './App.css';
 import About from './components/About/About';
+import Cert from './components/Cert/Cert';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Product from './components/Product/Product';
@@ -20,6 +21,7 @@ function App() {
       <Courses />
       <Team />
       <Reviews />
+      <Cert/>
     </>
   );
 }

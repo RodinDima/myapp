@@ -6,7 +6,9 @@ import Button from "../Button/Button";
 import Candle from "./Image/candle.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
-import Decor from "./Image/reviews-decor.png";
+import Insta from "./Image/insta.png";
+import  Decor from "./Image/reviews-decor.png";
+import Play from "./Image/Vector.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./style.scss";
@@ -29,16 +31,22 @@ const Reviews = () => {
           modules={[Pagination]}
           pagination={{ type: "bullets", clickable: true }}
         >
-          {/* <div className="reviews__slider-decor">
+          <div className="reviews__slider-decor">
             <img src={Decor} alt="" />
             <span></span>
-          </div> */}
+          </div>
           <SwiperSlide>
             <div className="reviews__slider">
               <div className="reviews__slider-img">
                 <img src={Candle} alt="candle" />
+                <button className="reviews__img-btn">
+                  <img src={Play} alt="Play video" />
+                </button>
               </div>
               <div className="reviews__slider-item">
+                <a href="#" className="reviews__slider-link">
+                  <img src={Insta} alt="instagram" />
+                </a>
                 <div className="reviews__slider-title">
                   {TEXT.SectionReviews.sliderTitle}
                 </div>
@@ -55,8 +63,14 @@ const Reviews = () => {
             <div className="reviews__slider">
               <div className="reviews__slider-img">
                 <img src={Candle} alt="candle" />
+                <button className="reviews__img-btn">
+                  <img src={Play} alt="Play video" />
+                </button>
               </div>
               <div className="reviews__slider-item">
+                <a href="#" className="reviews__slider-link">
+                  <img src={Insta} alt="instagram" />
+                </a>
                 <div className="reviews__slider-title">
                   {TEXT.SectionReviews.sliderTitle}
                 </div>
@@ -73,8 +87,14 @@ const Reviews = () => {
             <div className="reviews__slider">
               <div className="reviews__slider-img">
                 <img src={Candle} alt="candle" />
+                <button className="reviews__img-btn">
+                  <img src={Play} alt="Play video" />
+                </button>
               </div>
               <div className="reviews__slider-item">
+                <a href="#" className="reviews__slider-link">
+                  <img src={Insta} alt="instagram" />
+                </a>
                 <div className="reviews__slider-title">
                   {TEXT.SectionReviews.sliderTitle}
                 </div>
@@ -91,8 +111,14 @@ const Reviews = () => {
             <div className="reviews__slider">
               <div className="reviews__slider-img">
                 <img src={Candle} alt="candle" />
+                <button className="reviews__img-btn">
+                  <img src={Play} alt="Play video" />
+                </button>
               </div>
               <div className="reviews__slider-item">
+                <a href="#" className="reviews__slider-link">
+                  <img src={Insta} alt="instagram" />
+                </a>
                 <div className="reviews__slider-title">
                   {TEXT.SectionReviews.sliderTitle}
                 </div>
