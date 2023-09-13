@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 import Candle from "./Image/candle.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
-import Decor from "./Image/reviews-decor.png"
+import Decor from "./Image/reviews-decor.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./style.scss";

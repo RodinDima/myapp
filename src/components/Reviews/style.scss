@@ -1,6 +1,7 @@
 .reviews__container {
   display: flex;
   padding-bottom: 56px;
+  position: relative;
 }
 .reviews__content {
   margin-right: 18px;
@@ -14,7 +15,6 @@
 .reviews__slider {
   display: flex;
   padding-bottom: 123px;
- 
 }
 .reviews__slider-item {
   display: flex;
@@ -81,4 +81,8 @@
 .rev-btn {
   padding: 20px 35px;
 }
-
+.reviews__slider-decor {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+}
