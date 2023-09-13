@@ -1,8 +1,6 @@
 .cert {
   overflow: clip;
 }
-.cert__container {
-}
 .cert__inner {
   display: flex;
   padding-bottom: 50px;
@@ -10,8 +8,6 @@
 .cert__content {
   width: 371px;
   margin-right: 20px;
-}
-.cert__content-title {
 }
 .cert__content .TitleTemplate_special-text__ldBEH {
   margin-bottom: 10px;
@@ -24,9 +20,6 @@
 .cert__slider-item {
   width: 371px;
 }
-.cert__slider-img {
-}
-
 .cert__inner .swiper-pagination {
   display: flex;
   justify-content: center;
