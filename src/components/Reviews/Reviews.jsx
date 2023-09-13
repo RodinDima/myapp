@@ -29,6 +29,10 @@ const Reviews = () => {
           modules={[Pagination]}
           pagination={{ type: "bullets", clickable: true }}
         >
+          {/* <div className="reviews__slider-decor">
+            <img src={Decor} alt="" />
+            <span></span>
+          </div> */}
           <SwiperSlide>
             <div className="reviews__slider">
               <div className="reviews__slider-img">
@@ -103,10 +107,6 @@ const Reviews = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        <div className="reviews__slider-decor">
-          <img src={Decor} alt="" />
-          <span></span>
-        </div>
       </div>
     </section>
   );
