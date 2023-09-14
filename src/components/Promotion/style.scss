@@ -1,0 +1,130 @@
+.promotion {
+  overflow: clip;
+  margin-bottom: 50px;
+}
+.promotion__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.promotion__inner {
+  padding: 75px 42px 67px 42px;
+  background-color: #fff;
+}
+.promotion__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: 580px;
+}
+.promotion__form-title {
+  font-family: Yeseva One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.promotion__form-name .promotion__form-email {
+  color: #b3b3b3;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 20px;
+}
+
+.promotion__form input {
+  border: none;
+  height: 50px;
+  border-bottom: 1px solid #000;
+}
+
+.form-btn {
+}
+.promotion__image {
+}
+.promotion__img {
+  width: 448px;
+  height: 604px;
+}
+input:focus {
+  outline: none;
+}
+
+@media (max-width: 1150px) {
+  .promotion__image {
+    width: 335px;
+    height: 510px;
+  }
+  .promotion__image img {
+    width: 335px;
+    height: 510px;
+  }
+  .promotion__form {
+    width: 550px;
+  }
+  .promotion__inner {
+    padding: 75px 28px 67px 29px;
+  }
+}
+@media (max-width: 1150px) {
+  .promotion__image .promotion__image img {
+  }
+}
+
+@media (max-width: 1000px) {
+  .promotion__form {
+    width: 400px;
+  }
+  .promotion__inner {
+    padding: 26px 28px 31px 29px;
+  }
+  .promotion__container {
+    justify-content: space-evenly;
+  }
+  .promotion__form-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .promotion__image,
+  .promotion__image img {
+    width: 187px;
+    height: 100%;
+  }
+  .promotion__form-title {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 650px) {
+  .promotion__image {
+    display: none;
+  }
+  .promotion__form,
+  .promotion__inner {
+    width: 100%;
+  }
+  .promotion__form input {
+    height: 40px;
+  }
+  .promotion__inner {
+    text-align: center;
+  }
+}
+@media (max-width: 410px) {
+  .promotion__form-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 340px) {
+  .promotion__form-title {
+    font-size: 15px;
+  }
+  .promotion__form {
+    margin-bottom: 30px;
+  }
+}

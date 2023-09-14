@@ -1,0 +1,15 @@
+.answ li {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 689px) {
+  .answ {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 455px) {
+  .answ {
+    font-size: 10px;
+  }
+}
