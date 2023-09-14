@@ -3,6 +3,15 @@ import TitleTemplate from "../TitleTemplate/TitleTemplate";
 import { TEXT } from "../Constants";
 import TextTemplate from "../TextTemplate/TextTemplate";
 import Candle from "./Images/candle.jpg";
+import Candle2 from "./Images/candle2.jpg";
+import Candle3 from "./Images/candle3.jpg";
+import Candle4 from "./Images/candle4.jpg";
+import Candle5 from "./Images/candle5.jpg";
+import Candle6 from "./Images/candle6.jpg";
+import Candle7 from "./Images/candle7.jpg";
+import Candle8 from "./Images/candle8.jpg";
+import Candle9 from "./Images/candle9.jpg";
+import Candle10 from "./Images/candle10.jpg";
 import "./style.scss";
 
 const Steps = () => {
@@ -34,12 +43,12 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText2}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="Підготовка форми" />
+                <img src={Candle2} alt="Підготовка форми" />
               </div>
             </div>
             <div className="steps__item steps__item--even">
               <div className="steps__item-img">
-                <img src={Candle} alt="Приготування воску" />
+                <img src={Candle3} alt="Приготування воску" />
               </div>
               <span>03</span>
               <p className="steps__item-text">
@@ -48,7 +57,7 @@ const Steps = () => {
             </div>
             <div className="steps__item steps__item--even">
               <div className="steps__item-img">
-                <img src={Candle} alt="Підготовка фітіля" />
+                <img src={Candle4} alt="Підготовка фітіля" />
               </div>
               <span>04</span>
               <p className="steps__item-text">
@@ -61,7 +70,7 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText5}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="Підготовка матеріалів" />
+                <img src={Candle5} alt="Підготовка матеріалів" />
               </div>
             </div>
             <div className="steps__item steps__item--odd">
@@ -70,12 +79,12 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText6}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="Наповнення форми" />
+                <img src={Candle6} alt="Наповнення форми" />
               </div>
             </div>
             <div className="steps__item steps__item--even">
               <div className="steps__item-img">
-                <img src={Candle} alt="Приготування воску" />
+                <img src={Candle7} alt="Приготування воску" />
               </div>
               <span>07</span>
               <p className="steps__item-text">
@@ -84,7 +93,7 @@ const Steps = () => {
             </div>
             <div className="steps__item steps__item--even">
               <div className="steps__item-img">
-                <img src={Candle} alt="Підготовка фітіля" />
+                <img src={Candle8} alt="Підготовка фітіля" />
               </div>
               <span>08</span>
               <p className="steps__item-text">
@@ -97,7 +106,7 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText9}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="Підготовка матеріалів" />
+                <img src={Candle9} alt="Підготовка матеріалів" />
               </div>
             </div>
             <div className="steps__item steps__item--odd">
@@ -106,7 +115,7 @@ const Steps = () => {
                 {TEXT.SelectionSteps.stepsText10}
               </p>
               <div className="steps__item-img">
-                <img src={Candle} alt="Наповнення форми" />
+                <img src={Candle10} alt="Наповнення форми" />
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Img from "./Images/cert.png";
+import Img2 from "./Images/cert2.jpg";
 import { TEXT } from "../Constants";
 import Decor from "../Reviews/Image/reviews-decor.png";
 import TitleTemplate from "../TitleTemplate/TitleTemplate";
@@ -55,7 +56,7 @@ const Cert = () => {
               <div className="cert__slider">
                 <div className="cert__slider-item">
                   <div className="cert__slider-img">
-                    <img src={Img} alt="Certificate" />
+                    <img src={Img2} alt="Certificate" />
                   </div>
                 </div>
               </div>
@@ -64,7 +65,7 @@ const Cert = () => {
               <div className="cert__slider">
                 <div className="cert__slider-item">
                   <div className="cert__slider-img">
-                    <img src={Img} alt="Certificate" />
+                    <img src={Img2} alt="Certificate" />
                   </div>
                 </div>
               </div>

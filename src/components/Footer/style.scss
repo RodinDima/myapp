@@ -45,15 +45,15 @@
   .footer__menu-list {
     flex-direction: column;
   }
-    .footer {
-      height: 100%;
-      padding-bottom: 20px;
-    }
+  .footer {
+    height: 100%;
+    padding-bottom: 20px;
   }
+}
 
 @media (max-width: 440px) {
   .footer__menu-link {
-font-size: 11px;
+    font-size: 11px;
   }
   .footer__right {
     font-size: 12px;

@@ -1,5 +1,8 @@
 import React from "react";
 import One from "./Images/one.jpg";
+import Two from "./Images/two.jpg";
+import Three from "./Images/three.jpg";
+import Four from "./Images/four.jpg";
 import { TEXT } from "../Constants";
 import Button from "../Button/Button";
 import TitleTemplate from "../TitleTemplate/TitleTemplate";
@@ -31,7 +34,7 @@ const Product = () => {
             </div>
             <div className="product__item">
               <div className="product__item-img">
-                <img src={One} alt="Вихір кохання" />
+                <img src={Two} alt="Вихір кохання" />
               </div>
               <div className="product__item-price">10$</div>
               <div className="product__item-title">"Сердечко кохання"</div>
@@ -43,7 +46,7 @@ const Product = () => {
             </div>
             <div className="product__item">
               <div className="product__item-img">
-                <img src={One} alt="Веселка" />
+                <img src={Three} alt="Веселка" />
               </div>
               <div className="product__item-price">10$</div>
               <div className="product__item-title">"Сердечко кохання"</div>
@@ -55,7 +58,7 @@ const Product = () => {
             </div>
             <div className="product__item">
               <div className="product__item-img">
-                <img src={One} alt="Жіноча чарівність" />
+                <img src={Four} alt="Жіноча чарівність" />
               </div>
               <div className="product__item-price">10$</div>
               <div className="product__item-title">"Сердечко кохання"</div>
