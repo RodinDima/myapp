@@ -18,34 +18,34 @@ const Footer = () => {
           />
         </div>
         <nav className="footer__menu">
-          <ul className="menu__list">
-            <li className="menu__item">
-              <a href="#" className="menu__item-link">
+          <ul className="footer__menu-list">
+            <li className="footer__menu-item">
+              <a href="#" className="footer__menu-link">
                 Про нас
               </a>
             </li>
-            <li className="menu__item">
-              <a href="#" className="menu__item-link">
+            <li className="footer__menu-item">
+              <a href="#" className="footer__menu-link">
                 Каталог
               </a>
             </li>
-            <li className="menu__item">
-              <a href="#" className="menu__item-link">
+            <li className="footer__menu-item">
+              <a href="#" className="footer__menu-link">
                 Команда
               </a>
             </li>
-            <li className="menu__item">
-              <a href="#" className="menu__item-link">
+            <li className="footer__menu-item">
+              <a href="#" className="footer__menu-link">
                 Відгуки
               </a>
             </li>
-            <li className="menu__item">
-              <a href="#" className="menu__item-link">
+            <li className="footer__menu-item">
+              <a href="#" className="footer__menu-link">
                 Курси
               </a>
             </li>
-            <li className="menu__item">
-              <a href="#" className="menu__item-link">
+            <li className="footer__menu-item">
+              <a href="#" className="footer__menu-link">
                 Контакти
               </a>
             </li>
