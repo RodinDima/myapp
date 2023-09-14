@@ -5,8 +5,8 @@
   margin: 0 auto;
   padding: 0 20px;
 }
-a,li
- {
+a,
+li {
   list-style: none;
   text-decoration: none;
   color: inherit;
@@ -18,12 +18,14 @@ body {
   font-size: 14px;
 }
 .footer {
- 
+  padding-top: 45px;
+  height: 105px;
   background-color: #fff;
 }
 
 .footer__logo img {
   cursor: pointer;
+  background: transparent;
 }
 
 .footer__container {
