@@ -1,5 +1,9 @@
 import React from "react";
 import Logo from "./image/logo.svg";
+import { ReactComponent as Face } from "./image/face.svg";
+import { ReactComponent as Insta } from "./image/insta.svg";
+import { ReactComponent as Link } from "./image/link.svg";
+import { ReactComponent as Youtube } from "./image/youtube.svg";
 import "./style.scss";
 
 const Footer = () => {
@@ -51,8 +55,24 @@ const Footer = () => {
           <div className="footer__tel">
             <a href="tel:+4565789876">+45 65 78 98 76</a>
           </div>
+          <div className="footer__email">
+            <a href="#">candelsCandels@gmail.com</a>
+          </div>
+          <div className="footer__social">
+            <a className="footer__social-link" href="#">
+              <Face />
+            </a>
+            <a className="footer__social-link" href="#">
+              <Insta />
+            </a>
+            <a className="footer__social-link" href="#">
+              <Link />
+            </a>
+            <a className="footer__social-link" href="#">
+              <Youtube />
+            </a>
+          </div>
         </div>
-      
       </div>
     </footer>
   );
