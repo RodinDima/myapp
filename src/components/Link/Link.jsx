@@ -8,7 +8,7 @@ const Link = () => {
   return (
     <section className="link">
       <section className="link__container">
-			  <TitleTemplate className="link__title" text={TEXT.SectionLink.title } />
+        <TitleTemplate className="link__title" text={TEXT.SectionLink.title} />
         <Button className="link-btn" buttonText="В каталог" />
       </section>
     </section>

@@ -7,7 +7,7 @@ import Candle from "./Image/candle.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import Insta from "./Image/insta.png";
-import  Decor from "./Image/reviews-decor.png";
+import Decor from "./Image/reviews-decor.png";
 import Play from "./Image/Vector.png";
 import "swiper/css";
 import "swiper/css/pagination";

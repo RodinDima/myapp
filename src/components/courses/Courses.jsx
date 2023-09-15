@@ -38,9 +38,7 @@ const Courses = () => {
             </div>
             <div className="courses__item">
               <div className="courses__item-img">
-                <img
-                  src={Courses2}
-                  alt="The mystery of aromatherapy"/>
+                <img src={Courses2} alt="The mystery of aromatherapy" />
                 <p className="courses__title">Мистецтво ароматерапії</p>
                 <p className="courses__time">
                   Навчання <span>- 20 год</span>

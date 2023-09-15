@@ -26,8 +26,15 @@
   font-weight: 400;
   text-transform: uppercase;
   cursor: pointer;
+  border-bottom: 1px solid transparent;
+  width: 0;
+  transition: all 0.35s ease;
 }
-
+.footer__menu-link:hover {
+  width: 100%;
+  border-bottom-width: 100%;
+  border-bottom-color: #7b6152;
+}
 .footer__right {
   display: flex;
   flex-direction: column;

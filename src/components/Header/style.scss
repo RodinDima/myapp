@@ -5,8 +5,8 @@
   margin: 0 auto;
   padding: 0 20px;
 }
-a,li
- {
+a,
+li {
   list-style: none;
   text-decoration: none;
   color: inherit;
@@ -36,7 +36,7 @@ body {
 }
 
 .menu__item-link {
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid transparent;
   width: 100%;
   transition: width 0.35s;
   display: inline-block;
@@ -63,8 +63,19 @@ body {
 }
 
 .header__tel a {
-  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  width: 100%;
+  transition: width 0.2s ease;
+  display: inline-block;
+  cursor: pointer;
 }
+
+.header__tel :hover {
+  width: 100%;
+  border-bottom-width: 100%;
+  border-bottom-color: #7b6152;
+}
+
 .header__tel::before {
   content: url(./image/phone.svg);
   position: absolute;

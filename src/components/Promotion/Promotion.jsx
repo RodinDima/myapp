@@ -13,7 +13,7 @@ const Promotion = () => {
             <p className="promotion__form-title">{TEXT.SectionForm.title}</p>
             <input
               className="promotion__form-name"
-              placeholder="Імя"
+              placeholder="Ім`я"
               type="text"
             />
             <input
