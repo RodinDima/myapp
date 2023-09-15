@@ -56,7 +56,7 @@ const Footer = () => {
             <a href="tel:+4565789876">+45 65 78 98 76</a>
           </div>
           <div className="footer__email">
-            <a href="#">candelsCandels@gmail.com</a>
+            <a href="mailto:candelsCandels@gmail.com">candelsCandels@gmail.com</a>
           </div>
           <div className="footer__social">
             <a className="footer__social-link" href="#">
