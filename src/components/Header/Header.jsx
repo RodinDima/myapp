@@ -1,6 +1,8 @@
 import React from "react";
+
 import Logo from "./image/logo.svg";
 import Burger from "../Burger/Burger";
+
 import "./style.scss";
 
 const Header = () => {
