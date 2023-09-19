@@ -13,7 +13,7 @@ const Main = () => {
         <div className="main__content">
           <h3 className="main__title">{TEXT.sectionMain.title}</h3>
           <p className="main__text">{TEXT.sectionMain.mainText}</p>
-          <Button buttonText="Купити" />
+          <Button className="main-btn" buttonText="Купити" />
         </div>
 
         <picture className="main__img">

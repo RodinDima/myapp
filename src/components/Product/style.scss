@@ -112,7 +112,32 @@
     margin-bottom: 59px;
   }
 }
-@media (max-width: 360px) {
+
+@media (max-width: 440px) {
+  .product__item-img img {
+    width: 188px;
+  }
+  .product__items {
+    gap: 30px 7px;
+  }
+  .product__item-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .product__item-price {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  .product__item-text {
+    font-size: 8px;
+    margin-bottom: 19px;
+  }
+}
+
+@media (max-width: 420px) {
+  .product-btn {
+    padding: 15px 40px;
+  }
   .product__item {
     width: 140px;
   }

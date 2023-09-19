@@ -44,8 +44,8 @@
     top: 0;
     height: 100vh;
     box-sizing: border-box;
-	 justify-content: center;
-	 align-items: center;
+    justify-content: center;
+    align-items: center;
   }
   .burger__list {
     display: flex;
@@ -80,6 +80,6 @@
     transform: rotate(45deg);
   }
   .burger__item-link {
-	font-size: 3vh;
+    font-size: 3vh;
   }
 }

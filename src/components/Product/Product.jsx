@@ -30,7 +30,7 @@ const Product = () => {
                 Запах: ніжний аромат троянди та ванілі. Для чого: для атмосфери
                 романтичного настрою
               </p>
-              <Button buttonText="Купити" />
+              <Button className="product-btn" buttonText="Купити" />
             </div>
             <div className="product__item">
               <div className="product__item-img">
@@ -42,7 +42,7 @@ const Product = () => {
                 Запах: ніжний аромат троянди та ванілі. Для чого: для атмосфери
                 романтичного настрою
               </p>
-              <Button buttonText="Купити" />
+              <Button className="product-btn" buttonText="Купити" />
             </div>
             <div className="product__item">
               <div className="product__item-img">
@@ -54,7 +54,7 @@ const Product = () => {
                 Запах: ніжний аромат троянди та ванілі. Для чого: для атмосфери
                 романтичного настрою
               </p>
-              <Button buttonText="Купити" />
+              <Button className="product-btn" buttonText="Купити" />
             </div>
             <div className="product__item">
               <div className="product__item-img">
@@ -66,7 +66,7 @@ const Product = () => {
                 Запах: ніжний аромат троянди та ванілі. Для чого: для атмосфери
                 романтичного настрою
               </p>
-              <Button buttonText="Купити" />
+              <Button className="product-btn" buttonText="Купити" />
             </div>
           </div>
         </div>

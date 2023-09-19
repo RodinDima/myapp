@@ -1,7 +1,10 @@
-import React from "react";
-import TitleTemplate from "../TitleTemplate/TitleTemplate";
+import React, { useState } from "react";
+
 import { TEXT } from "../Constants";
+
 import TextTemplate from "../TextTemplate/TextTemplate";
+import TitleTemplate from "../TitleTemplate/TitleTemplate";
+
 import Candle from "./Images/candle.jpg";
 import Candle2 from "./Images/candle2.jpg";
 import Candle3 from "./Images/candle3.jpg";
@@ -12,9 +15,17 @@ import Candle7 from "./Images/candle7.jpg";
 import Candle8 from "./Images/candle8.jpg";
 import Candle9 from "./Images/candle9.jpg";
 import Candle10 from "./Images/candle10.jpg";
+
 import "./style.scss";
+import StepsData from "../StepsData/StepsData";
 
 const Steps = () => {
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const showMoreItems = () => {
+    setCurrentIndex((prevIndex) => prevIndex + 3);
+  }
+
   return (
     <section className="steps">
       <div className="steps__container">
@@ -28,7 +39,15 @@ const Steps = () => {
             </p>
           </div>
           <div className="steps__list">
-            <div className="steps__item steps__item--odd">
+            {StepsData.slice(currentIndex,currentIndex + 3).map((item,index) => (
+              
+            ))}
+
+
+
+
+
+            {/*<div className="steps__item steps__item--odd">
               <span>01</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText1}
@@ -117,7 +136,7 @@ const Steps = () => {
               <div className="steps__item-img">
                 <img src={Candle10} alt="Наповнення форми" />
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
