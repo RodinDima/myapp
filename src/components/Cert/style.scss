@@ -12,9 +12,11 @@
   width: 371px;
   margin-right: 20px;
 }
-
+.cert__content-title {
+  margin-bottom: 15px;
+}
 .cert__slider {
-  width: 375px;
+  width: 371px;
   padding-bottom: 123px;
   display: flex;
 }
@@ -28,6 +30,9 @@
   position: absolute;
   top: 225px !important;
   left: 0;
+}
+.cert__inner .swiper-slide {
+  width: 371px !important;
 }
 
 .swiper-pagination-bullet {
@@ -48,7 +53,7 @@
 }
 
 .cert__inner .swiper-wrapper {
-  width: 800px;
+  width: 774px;
 }
 .cert__inner .swiper {
   margin: 0;
@@ -56,19 +61,31 @@
 
 @media (max-width: 1000px) {
   .cert__slider-img {
-    width: 275px;
+    width: 280px;
   }
   .cert__slider-img img {
-    width: 275px;
+    width: 280px;
   }
   .cert__inner .swiper-wrapper {
-    width: 614px;
+    width: 800px;
   }
 
   .cert {
     .reviews__slider-decor {
       left: 20%;
     }
+  }
+  .cert__content {
+    width: 260px;
+  }
+  .cert__slider-item {
+    width: 280px;
+  }
+  .cert__slider {
+    width: 280px;
+  }
+  .cert__inner .swiper-slide {
+    width: 280px !important;
   }
 }
 .cert__slider-decor {
@@ -85,11 +102,11 @@
   display: inline-block;
 }
 @media (max-width: 926px) {
-  .cert__content {
-    width: 200px;
+  .cert {
+    margin-bottom: 5px;
   }
   .cert__inner .swiper-wrapper {
-    width: 571px;
+    width: 800px;
   }
   .cert__inner .swiper-pagination {
     top: 179px !important;
@@ -121,49 +138,54 @@
     margin-bottom: 30px;
   }
   .cert__inner .swiper-pagination {
-    top: 146px !important;
+    top: 160px !important;
   }
   .cert__inner .swiper-wrapper {
-    width: 582px;
   }
-  .cert {
-    .reviews__slider-decor {
-      left: 10%;
-    }
+  .cert__slider-img img {
+    width: 375px;
+  }
+  .cert__slider-img {
+    width: 375px;
+  }
+  .cert__inner .swiper-wrapper {
+    width: 375px;
+  }
+  .cert__inner .swiper-pagination {
+    top: 223px !important;
+  }
+  .cert__inner .swiper-slide {
+    width: 370px !important;
   }
 }
 
 @media (max-width: 595px) {
   .cert__slider-img img {
-    width: 300px;
   }
   .cert__slider-img {
-    width: 300px;
   }
   .cert__inner .swiper-wrapper {
-    width: 435px;
   }
   .cert__inner .swiper-pagination {
-    top: 100px !important;
+    top: 206px !important;
   }
   .cert__inner .swiper-wrapper {
-    width: 423px;
-  }
-  .cert {
-    .reviews__slider-decor {
-      left: 5%;
+    .cert {
     }
   }
 }
 
 @media (max-width: 445px) {
   .cert__inner .swiper-wrapper {
-    width: 300px;
+    width: 400px;
   }
   .cert__slider-img img {
     width: 300px;
   }
   .cert__inner .swiper-pagination {
     top: 150px !important;
+  }
+  .cert__inner .swiper-slide {
+    width: 298px !important;
   }
 }

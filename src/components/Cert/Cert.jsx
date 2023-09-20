@@ -29,7 +29,7 @@ const Cert = () => {
 
           <Swiper
             spaceBetween={20}
-            slidesPerView={2.3}
+            slidesPerView={2}
             modules={[Pagination]}
             pagination={{ type: "bullets", clickable: true }}
             breakpoints={{
@@ -37,6 +37,7 @@ const Cert = () => {
                 slidesPerView: 1,
               },
               445: { slidesPerView: 1 },
+              1000: { slidesPerView: 3 },
             }}
           >
             <SwiperSlide>

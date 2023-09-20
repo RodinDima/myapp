@@ -9,6 +9,9 @@
   margin-right: 47px;
 }
 
+.question-title {
+}
+
 @media (max-width: 1145px) {
   .question__title {
     min-width: 300px;
@@ -24,7 +27,11 @@
     margin-bottom: 30px;
   }
 }
-
+@media (max-width: 926px) {
+  .question-title {
+    font-size: 20px;
+  }
+}
 @media (max-width: 595px) {
   .question__title {
     margin-bottom: 5px;

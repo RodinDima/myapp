@@ -9,7 +9,7 @@ const Question = () => {
     <section className="question">
       <div className="question__container">
         <h3 className="question__title">
-          <TitleTemplate text={TEXT.SectionQuestion.title} />
+          <TitleTemplate className="question-title" text={TEXT.SectionQuestion.title} />
         </h3>
         <Faq />
       </div>
