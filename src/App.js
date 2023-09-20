@@ -10,7 +10,7 @@ import Product from './components/Product/Product';
 import Promotion from './components/Promotion/Promotion';
 import Question from './components/Question/Question';
 import Reviews from './components/Reviews/Reviews';
-//import Steps from './components/Steps/Steps';
+import Steps from './components/Steps/Steps';
 import Team from './components/Team/Team';
 import Courses from './components/courses/Courses';
 
@@ -21,7 +21,7 @@ function App() {
       <Main />
       <About />
       <Product />
-      {/*<Steps />*/}
+      <Steps />
       <Courses />
       <Team />
       <Reviews />

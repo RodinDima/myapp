@@ -36,7 +36,7 @@ const Cert = () => {
               320: {
                 slidesPerView: 1,
               },
-              445: { slidesPerView: 2 },
+              445: { slidesPerView: 1 },
             }}
           >
             <SwiperSlide>
@@ -84,12 +84,12 @@ const Cert = () => {
                 </div>
               </div>
             </SwiperSlide>
+            <div className="cert__slider-decor">
+              <img src={Decor} alt="" />
+              <span></span>
+            </div>
           </Swiper>
         </div>
-      </div>
-      <div className="reviews__slider-decor">
-        <img src={Decor} alt="" />
-        <span></span>
       </div>
     </section>
   );

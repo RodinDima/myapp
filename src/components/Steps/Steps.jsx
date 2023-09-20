@@ -20,11 +20,10 @@ import "./style.scss";
 import StepsData from "../StepsData/StepsData";
 
 const Steps = () => {
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const showMoreItems = () => {
     setCurrentIndex((prevIndex) => prevIndex + 3);
-  }
+  };
 
   return (
     <section className="steps">
@@ -32,22 +31,20 @@ const Steps = () => {
         <div className="steps__inner">
           <div className="steps__content">
             <div className="steps__content-title">
-              <TitleTemplate text={TEXT.SelectionSteps.title} />
+              <TitleTemplate
+                className="steps__title"
+                text={TEXT.SelectionSteps.title}
+              />
             </div>
             <p className="steps__content-text">
-              <TextTemplate text={TEXT.SelectionSteps.text} />
+              <TextTemplate
+                className="steps__text"
+                text={TEXT.SelectionSteps.text}
+              />
             </p>
           </div>
           <div className="steps__list">
-            {StepsData.slice(currentIndex,currentIndex + 3).map((item,index) => (
-              
-            ))}
-
-
-
-
-
-            {/*<div className="steps__item steps__item--odd">
+            <div className="steps__item steps__item--odd">
               <span>01</span>
               <p className="steps__item-text">
                 {TEXT.SelectionSteps.stepsText1}
@@ -136,7 +133,7 @@ const Steps = () => {
               <div className="steps__item-img">
                 <img src={Candle10} alt="Наповнення форми" />
               </div>
-            </div>*/}
+            </div>
           </div>
         </div>
       </div>
